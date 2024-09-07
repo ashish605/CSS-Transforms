@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            border: 2px solid black;
+            color: white;
+            font-size: 22px;
+            border-radius: 10px;
+            height: 55px;
+            width: 55px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-10deg) translateX(30px) ;
+
+        }
+        
+
+        .box {
+            border: 2px solid black;
+            color: white;
+            font-size: 22px;
+            border-radius: 10px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 55px;
+            width: 55px;
+            /*  transform: rotate(40deg);*/
+            /* transform: rotatex(40deg);*/
+            /*transform: rotateY(40deg);*/
+            /* transform: rotateZ(10deg);*/
+         /*transform: scalez(1.5);*/
+         /*transform: skewy(20deg);*/
+         /*transform: translatey(100px);
+         transform: translatex(100px);*/
+         transform:   rotate(369deg) translateX(20px) ;
+         transform-origin: 0% 0%;
+         
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">?</div>
+        <div class="box1">!</div>
+    </div>
+</body>
+
+</html>
